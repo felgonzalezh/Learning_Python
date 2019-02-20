@@ -13,16 +13,16 @@ if(root < 0):
     root_i = math.sqrt(abs(root))*1j;
     x1 = (-b+root_i)/(2*a);
     x2 = (-b-root_i)/(2*a);
-    print "One root: ", x1;
-    print "Second root: ", x2;
+    print "One root: ", '{0:.2f}'.format(x1);
+    print "Second root: ", '{0:.2f}'.format(x2);
 elif(root == 0):
     x1 = -b/(2*a);
     print "There is only ONE root: ", x1;
 else:
     x1 = (-b+math.sqrt(root))/(2*a);
     x2 = (-b-math.sqrt(root))/(2*a);
-    print "One root: ", x1;
-    print "Second root: ", x2;
+    print "One root: ", '{0:.2f}'.format(x1);
+    print "Second root: ", '{0:.2f}'.format(x2);
 
 
     
